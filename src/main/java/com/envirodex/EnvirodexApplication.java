@@ -1,14 +1,13 @@
-package com.example.demo;
+package com.envirodex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class EnvirodexApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("\nHello World!");
+		SpringApplication.run(EnvirodexApplication.class, args);
 	}
 
 }
